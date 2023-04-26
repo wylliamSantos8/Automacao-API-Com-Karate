@@ -1,0 +1,17 @@
+image: openjdk
+
+health_check:
+  script:
+    - java -jar karate.jar -t @health_check features
+
+contract:
+  script:
+    - java -jar karate.jar -t @contract features
+
+acceptance:
+  script:
+    - java -jar karate.jar -t @acceptance features
+
+e2e:
+  script:
+    - java -jar karate.jar -t @e2e features

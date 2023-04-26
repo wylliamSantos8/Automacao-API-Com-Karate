@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="karate">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/karate.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
